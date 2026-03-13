@@ -1,0 +1,59 @@
+# ── Large datasets / videos — DO NOT COMMIT ──────────────────
+deepfake-detection-challenge/test_videos/
+deepfake-detection-challenge/train_sample_videos/
+DeepFake00/
+
+# ── All video formats ─────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# ── All archive/zip files ─────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# ── Pretrained model weights ──────────────────────────────────
+pretrain/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.bin
+*.onnx
+*.caffemodel
+*.weights
+*.pb
+
+# ── All raw image dataset files (face crops) ─────────────────
+# NOTE: demo_detection.gif (generated, <300KB) is explicitly kept
+*.jpg
+*.jpeg
+*.png
+# Exceptions: small generated/chart assets are allowed
+!demo_detection.gif
+!final_project_presentation.pptx
+
+# ── Jupyter artifacts ─────────────────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Python cache ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
